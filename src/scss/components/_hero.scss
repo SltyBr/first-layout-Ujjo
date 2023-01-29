@@ -1,0 +1,33 @@
+.hero {
+    &__block {
+        margin-top: -1px;
+    }
+
+    &__left {
+        width: 50%;
+        border-right: 1px solid var(--dark-color);
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    &__phrase {
+        padding: 25px 27px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    &__image {
+        padding: 20px;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
